@@ -3,10 +3,9 @@ public class Electronics extends Product{
     private final double warrantyCost;
 
     public Electronics(String productName, double price, int warranty, double warrantyCost) {
+        super(productName, price);
         this.warranty = warranty;
         this.warrantyCost = warrantyCost;
-        this.productName = productName;
-        setPrice(price);
     }
 
     @Override
