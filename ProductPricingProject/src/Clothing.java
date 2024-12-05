@@ -3,10 +3,9 @@ public class Clothing extends Product{
     private double discountPercentage;
 
     public Clothing(String productName,double price, String brand, double discountPercentage) {
+        super(productName,price);
         this.brand = brand;
         this.discountPercentage = discountPercentage;
-        this.productName = productName;
-        setPrice(price);
     }
 
     @Override
