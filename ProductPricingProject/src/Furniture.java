@@ -3,9 +3,9 @@ public class Furniture extends Product{
     private final double shippingCost;
 
     public Furniture(String productName, double price, String material, double shippingCost) {
+        super(productName,price);
         this.material = material;
         this.shippingCost = shippingCost;
-        this.productName = productName;
         setPrice(price);
     }
 
