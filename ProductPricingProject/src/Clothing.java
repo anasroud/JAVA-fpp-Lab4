@@ -6,7 +6,6 @@ public class Clothing extends Product{
         super(productName,price);
         this.brand = brand;
         this.discountPercentage = discountPercentage;
-        setPrice(price);
     }
 
     @Override
